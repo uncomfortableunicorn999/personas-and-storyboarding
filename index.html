@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Structure based off of Jeff's bootstrap tutorial https://www.youtube.com/watch?v=6Df6xbs5m8A -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personas and StoryBoarding</title> 
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="a">Personas and StoryBoarding</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="navbar-item"><a href="#description" class="nav-link">Description and Sketch</a></li>
+                <li class="navbar-item"><a href="#questions" class="nav-link">Questions and Summary</a></li>
+                <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
+                <li class="navbar-item"><a href="#story" class="nav-link">StoryBoard</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="d-flex flex-column blue justify-content-center align-items-center top-pane">
+    <!-- <img src="images/interface.png" style="width: 10rem; height: auto"> -->
+    <h1 class=" display-1">Personas and StoryBoarding</h1>
+    <h2 class="display-6" >An in depth look at CVS self checkout</h2>
+</div>
+
+<div id="description" class="container-fluid  text-center">
+    <h3>Description and Sketch</h3>
+    <hr class="ml-bottom">
+    <p>The CVS self checkout is a machine that consists of 4 main parts. There is the touch screen that
+        has different screen based on where you are in the checkout process. 
+        The first screen is motion activated, when a user walks up to the checkout, it appears. The second. Sketches of the different 
+        screens are shown below. There is the scanner and scanning area that checks the items. Lastly there 
+        is the credit card pad/reader where the user swipes/taps/ApplePays and enters a pin on a keypad if 
+        necessary. There is also the bagging area which is important. The system keeps track of the weight
+    in the bagging area and will get mad at the user if the weight does not increase after they scan an item. </p>
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div> 
+                <img class="sketch" src="./images/interfac.png" alt="the interface">
+            </div>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class= "col-sm-6" style="padding: 1rem;" >
+                <img class="sketch" src="./images/initial.png" alt="the interface">
+            </div>
+            <div class= "col-sm-6"style="padding: 1rem;">
+                <img class="sketch" src="./images/post_scan.png" alt="the interface">
+            </div>       
+            <div class= "col-sm-6" style="padding: 1rem;" >
+                <img class="sketch" src="./images/checkout.png" alt="the interface">
+            </div>
+            <div class= "col-sm-6" style="padding: 1rem;">
+                <img class="sketch" src="./images/receipt.png" alt="the interface">
+            </div>
+        </div>
+   
+</div>
+
+<div id="questions" class=" blue2 container-fluid bg-white">
+    <h4 style="padding-top: 2rem;">Questions and Summary</h4>
+    <hr class="ml-bottom">
+
+    <h5 class="text-start" style="padding-left: 8rem;">Questions</h5>
+    <ol style="padding-left: 8rem;"> 
+        <li class="text-start">How did your interface experience make you feel?</li>
+        <li class="text-start" >Why did you choose self checkout over normal checkout? and would you choose it again?</li>
+        <li class="text-start">Did you experience any challenges with the interface?</li>
+        <li class="text-start">Was the interface easy to use?</li>
+    </ol>
+    <h5 class="text-start"  style="padding-left: 8rem;">Observations</h5>
+    <ul style="padding-left: 8rem; padding-right: 8rem;"> 
+        <li class="text-start"> The majority of people had no issues using the system besides forgetting to click buttons or troubles scanning items
+        <li class="text-start" > Everyone using self checkout had very few items</li>
+        <li class="text-start" >The bagging area is on the left on some machines despite the images on the screen instructing
+            people to move their items to the right.</li>
+        <li  class="text-start" >Not moving an item to the bagging area will cause an error </li>
+
+        <li class="text-start">There were 3 main difficulties experienced: People not reading the instructions, the scanner not working, and the bagging area being unclear</li>
+        
+        <li class="text-start">Despite the difficulties all users said the system was easy to use</li>
+    </ul>
+    <h5 class="text-start"  style="padding-left: 8rem;">Summary</h5>
+    <ul style="padding-left: 8rem; padding-right: 8rem;"> 
+        <li class="text-start">Most users either didn't have any reaction of a feeling from the interface.
+            The ones that did felt confused, frustrated, or annoyed. The cause of these reaction were from 
+            something in the interface not functioning as it should
+        </li>
+        <li class="text-start" >Some users chose self checkout because they believed it was faster, and they were in a rush,
+            while others chose it because they don't like talking to people. A few of the interviewees chose it
+             because the line was just shorter and it made more sense. Everyone said they would use it again despite any difficulties.
+        </li>
+        <li class="text-start">There were 3 main difficulties experienced: People not reading the instructions, the scanner not working, and the bagging area being unclear</li>
+        
+        <li class="text-start">Despite the difficulties all users said the system was easy to use</li>
+    </ul>
+</div>
+
+
+<div id="personas" class="container-fluid bg-white">
+    <h4 style="padding-top: 2rem;">Personas</h4>
+    <hr>
+
+    <div class="row text-center justify-content-center">
+        <div class= "col-sm-6" style="padding: 1rem;">
+            <img class="persona" src="./images/alice.jpg" alt="the interface">
+            <h6>Awkward Alice is a woman in her twenties who gets very nervous in social interactions. She has troubles scanning
+                her items and doesn't know where to put them when she has finished. Not placing them in the bagging area causes issues.
+                She represents the class of users who choose might not know how to use self checkout, 
+                but choose because they don't want to talk to anyone</h6>
+        </div>
+        <div class= "col-sm-6" style="padding: 1rem;">
+            <img class="persona" src="./images/ian.jpg" alt="the interface">
+            <h6>Impatient Ian is a busy man who is always in a hurry. Trying to go as fast as he can, 
+                Ian sometimes misses the all of the buttons on the touch screen that say "Continue"
+                 and then has to wait to realize what has happened. He represents the class of users who know how to use
+                self checkout, and choose to do so because he believes it is faster.
+            </h6>
+        </div>
+    </div>
+</div>
+
+<div id="story" class="container-fluid">
+    <h4 style="padding-top: 2rem;">StoryBoard</h4>
+    <hr>
+    <div class="row text-center justify-content-center">
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/1.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/2.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/3.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/4.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/5.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/6.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/7.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/8.png" alt="the interface">
+        </div>
+        <div class= "col-sm-6 col-lg-4" style="padding: 1rem;" >
+            <img src="./images/9.png" alt="the interface">
+        </div>
+
+
+</div>
+
+</body>
+
+</html>

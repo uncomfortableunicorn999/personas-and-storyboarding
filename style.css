@@ -1,0 +1,46 @@
+/* acme-regular - latin */
+@font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Acme'),
+         url('./fonts/acme-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/acme-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+
+  body{
+    font-family: 'Acme';
+    background-color: rgb(158, 204, 240);
+    padding-top: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+      font-family: 'Acme';
+  }
+
+  h3 {
+    padding-top: 2rem;
+  }
+  .blue{
+    background: url(./images/blue.jpg) center;
+    height: calc(100vh - 56px);
+  }
+
+  .blue2{
+    background: url(./images/blue.jpg) center;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .sketch{
+    border: .3rem solid gray;
+    height: 20rem;
+    object-fit: cover;
+  }
+  .persona{
+    border: .3rem solid gray;
+    height: 20rem;
+
+  }
