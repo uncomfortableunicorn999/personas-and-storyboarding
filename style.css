@@ -24,12 +24,12 @@
     padding-top: 2rem;
   }
   .blue{
-    background: url(./images/blue.jpg) center;
+    background: url(./blue.jpg) center;
     height: calc(100vh - 56px);
   }
 
   .blue2{
-    background: url(./images/blue.jpg) center;
+    background: url(./blue.jpg) center;
     height: auto;
     padding-bottom: 2rem;
   }
